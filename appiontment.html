@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appiontment booking system</title>
-    <link rel="stylesheet" type="text/css" href="code.css">
-    
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css.map">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="heading">
-        <h1>APPOINTMENT BOOKING SYSTEM</h1>
-    </div>
-    <div>
-        <span class="star"></span>
-        <span class="star"><br></br></span>
-        <span class="star"></span>
-        <span class="star"></span>
-        <button class="star">Login</button>
-        <span class="star"></span>
-        <span class="star"></span>
-        <span class="star"></span>
-        <button class="star">Sign Up</button>
-        <span class="star"><br></br></span>
-    </div>
-    <form id="contact">
-        <div id="Email">
-            E-Mail:
-            <span class="space"></span>
-            <input type="email" name="E-Mail" id="mail">
-        </div>
-        <div>
-            Password: 
-            <span class="space"></span>
-            <textarea name="Password" id="Password"></textarea>
-        </div>
-        <div>
-            <button class="button">Submit</button>
-        </div>
-    </form>
 
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6">
+            <div class="heading">
+                APPOINTMENT BOOKING SYSTEM
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-3">
+            <button class="star">LOG IN</button>
+        </div>
+        <div class="col-sm-3">
+            <button class="star">SIGN UP</button>
+        </div>
+    </div>
+    <div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6">
+            <div class="contact">
+                <div class="email">Email:</div>
+                <input type="text"  name="Email"class="contact_space">
+                <div class="password">Password:</div>
+                <input type="text" name="Password" class="contact_space"><br>
+                <center><button class="button">Submit</button></center>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
 </body>
+
 </html>
