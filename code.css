@@ -1,118 +1,43 @@
-
-*{
-  margin: 20;
-  padding: 20;
+body{
+    background-color: #286090;
 }
 
-body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-  background: #286090;
-  margin-left: 370px;
-  margin-right: 370px;
-}
-
-.container {
-  max-width: 400px;
-  width: 100%;
-  margin: 25px;
-  position: center;
-}
-
-#contact input[type="email"],
-#contact input[type="password"],
-#contact textarea,
-#contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
-}
-
-#contact {
-  background: #F9F9F9;
-  padding: 25px;
-  margin: 15px 0;
-  margin-left: 80px;
-  margin-right: 130px;
-
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-}
-
-#contact input[type="email"],
-#contact input[type="password"],
-#contact textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-}
-
-#contact input[type="email"],
-#contact input[type="password"],
-#contact textarea:hover {
-  border: 1px solid #aaa;
-}
-
-#contact textarea {
-  height: 15px;
-  max-width: 100%;
-  resize: none;
-}
-
-#contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: red;
-  color: #FFF;
-  margin: 0 0 15px;
-  padding: 10px;
-  font-size: 15px;
-  text-align: center;
-
-}
 
 .heading{
-    color: white;
-    font-size: 15px;
-    padding-left: 120px;
+    color:white;
+    font-size: 35px;
+    padding-left: 10px;
+    width: 100%;
+    margin-top: 50px;
 
 }
-.button{
-  background-color : hsl(0, 63%, 45%);
-  color: white;
-  margin: 0 0 55px;
-  padding: 10px;
-  font-size: 10px;
-  text-align: center;
-
-}
-
 .star{
-  color: white;
-  background-color: #286090; 
-  margin-left: 45px;
-  padding: 10px;
-  font-size: 15px;
+    margin-top: 40px;
+    color: white;
+    background-color: #286090;
+    padding: 8px;
+    border-radius: 5px;
+    
 }
 
-.form{
-  text-align: center;
-  margin-top: 50px;
+.button{
+    font-size: 15px;
+    background-color: #cc0000;
+    color: white;
+    border-radius: 5px;
+   
+
 }
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
+.contact{
+    height: 250px;
+    width: 450px;
+    background-color: white;
+    margin-top: 50px;
+    padding: 25px;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.contact_space{
+    width: 100%;
 }
